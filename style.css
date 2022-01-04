@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    color: orange;
+}
+.color{
+    color: coral;
+}
+.section-continar{
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.fast-scetion{
+    width: 50%;
+    padding-left: 2%;
+    
+}
+.fast-scetion img{
+    width: 80%;
+
+}
+
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: #fcf9f6;
+   font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+
+}
+.bacgraund-top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bacgraund-center{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+
+footer p{
+    text-align: center;
+
+}
+
+.experiances{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+
+}
+
+
+.experiances-item{
+    width: 40%;
+    
+    margin-left: 5%;
+    margin-right: 5%
+;   padding-left:20px ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
