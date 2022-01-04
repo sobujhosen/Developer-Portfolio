@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 h1{
     font-size: 60px;
@@ -79,3 +80,13 @@ footer p{
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
 }
+
+#item-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#item-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
